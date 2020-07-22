@@ -9,11 +9,9 @@ var firebaseConfig = {
     measurementId: "G-240501720",
   };
 
-  firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
 
 var ui = new firebaseui.auth.AuthUI(firebase.auth());
-
-
 
 
 ui.start('#firebaseui-auth-container', {
@@ -75,7 +73,6 @@ ui.start('#firebaseui-auth-container', {
     // Privacy policy url.
     privacyPolicyUrl: '<your-privacy-policy-url>'
   };
- 
  
 
   ui.start('#firebaseui-auth-container', uiConfig);
