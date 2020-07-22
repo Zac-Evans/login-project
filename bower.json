@@ -1,0 +1,23 @@
+{
+  "name": "login-project",
+  "authors": [
+    "Zac Evans <zacevanscoding@gmail.com>"
+  ],
+  "description": "login practice",
+  "main": "index.html",
+  "keywords": [
+    "login"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebaseui": "^4.6.0"
+  }
+}
